@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root{
+  --main-bg-color: hsl(0, 0%, 8%) ;
+  --main-text-color: hsl(0, 0%, 100%);
+  --p-text: hsl(75, 94%, 57%);
+  --card-main-color: hsl(0, 0%, 12%);
+  --button-color: hsl(0, 0%, 20%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: block;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.maincard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: var(--card-main-color);
+  width: 290px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1, button, h4,p{
+  background-color: var(--card-main-color);
+}
+
+img{
+  border-radius: 50%;
+  width: 10vh;
+  }
+
+h1{
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+h4{
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--p-text);
+}
+
+p{
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+button{
+  width: 270px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 5px;
+}
